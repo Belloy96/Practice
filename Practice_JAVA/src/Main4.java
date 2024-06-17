@@ -39,7 +39,7 @@ public class Main4 {
 				System.out.println("==============================");
 			} else if (choice == 2) {
 				System.out.println("<거스름돈 : " + money + "원>");
-				int[] currency = { 50000, 10000, 5000, 500, 100, 50, 10 };
+				int[] currency = { 50000, 10000, 5000, 1000, 500, 100, 50, 10 };
 				for (int i = 0; i < currency.length; i++) {
 					if (money >= currency[i]) {
 						System.out.printf("%d원권 : %d개\n", currency[i], (money / currency[i]));
